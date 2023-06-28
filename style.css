@@ -1,0 +1,159 @@
+
+.contenedor{ 
+   background-color: black;
+    margin:1rem auto;
+    width: 1200px; 
+    display: grid;
+   
+    
+
+    grid-template-columns: 30% 70%;
+   
+
+}
+.columna1{
+    background-color: rgb(30, 30, 189);
+    display: grid;
+ 
+    grid-template-rows:  5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%; 
+
+
+}
+.foto>img{
+    padding-left: 23%;
+    padding-top: 8%;
+ width: 200px;
+ height: 230px;
+
+
+ 
+}
+
+.contacto{
+    text-align: center;
+  
+     grid-row: 6;
+    
+
+}
+
+a{
+    color: black;
+}
+
+.figura1{
+    text-align: left;
+    padding-left: 40%;   
+     grid-row: 7;
+
+}
+
+.habilidades{
+  text-align: center;
+    
+    padding: 50px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 10;
+}
+
+.barras{
+    text-align: left;
+    display: grid;
+    padding-left: 26%;   
+}
+
+.hobbies{ 
+    text-align: center;
+    grid-row: 18;
+}
+
+.figuras{
+    padding-left: 43%;
+    grid-row:20
+
+ 
+}
+
+
+
+
+.columna2{
+   background-color: aqua;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+p{ 
+    text-align: left;
+}
+
+.nombre{
+ 
+    font-family: monospace;
+    font-size: 200%;
+    padding: 12px;
+   display: grid;
+   grid-column: 2 / 6; 
+} 
+
+.perfil{ 
+    
+    display: grid;
+    grid-column: 2 / 5;
+    grid-row:  2;
+    padding: 30px;
+}
+
+.formacion{
+    padding-left: 40px;
+    height: 50px;
+    text-align: center;
+    background-color:  dodgerblue;   
+   
+    border-radius: 20px;    
+   padding: 5px;
+   display: grid;
+   grid-column: 2 / 5 ;
+   grid-row:  4;
+    
+}
+
+.experiencia{
+ 
+    height: 50px;
+    text-align: center;  
+    background-color:  dodgerblue;   
+   
+    border-radius: 20px;    
+   
+   display: grid;
+   grid-column: 2 / 5;
+   grid-row:  6;
+}
+
+
+.logros{
+    
+    height: 50px;
+    text-align: center;  
+    background-color: dodgerblue;
+ 
+    border-radius: 20px;    
+   padding: 5px;
+   display: grid;
+   grid-column: 2 / 5;
+   grid-row: 9  ;
+   
+}
+
+
+
+
+
+
+    
+
+    
+
